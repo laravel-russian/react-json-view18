@@ -4,8 +4,8 @@
     "version": "1.21.3",
     "main": "dist/main.js",
     "dependencies": {
-        "flux": "^4.0.1",
-        "react-base16-styling": "^0.6.0",
+        "flux": "^4.0.4",
+        "react-base16-styling": "^0.9.1",
         "react-lifecycles-compat": "^3.0.4",
         "react-textarea-autosize": "^8.3.2"
     },
@@ -48,8 +48,8 @@
         "webpack-dev-server": "^3.11.2"
     },
     "peerDependencies": {
-        "react": "^17.0.0 || ^16.3.0 || ^15.5.4",
-        "react-dom": "^17.0.0 || ^16.3.0 || ^15.5.4"
+        "react": "^18.0.0 || ^17.0.0 || ^16.3.0 || ^15.5.4",
+        "react-dom": "^18.0.0 || ^17.0.0 || ^16.3.0 || ^15.5.4"
     },
     "scripts": {
         "build": "NODE_ENV=production webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
